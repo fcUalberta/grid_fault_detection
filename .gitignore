@@ -1,0 +1,23 @@
+    # Logs
+    *.log
+    logs/
+
+    # Dependency directories
+    node_modules/
+    vendor/
+
+    # Build output
+    build/
+    dist/
+
+    # Environment variables
+    .env
+
+    # IDE files (e.g., VS Code)
+    .vscode/
+    .__pychache__
+
+    # Operating System files
+    .DS_Store
+    Thumbs.db
+

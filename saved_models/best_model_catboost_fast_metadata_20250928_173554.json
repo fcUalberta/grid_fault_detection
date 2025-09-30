@@ -1,0 +1,27 @@
+{
+  "model_name": "best_model_catboost_fast",
+  "model_type": "CatBoostClassifier",
+  "timestamp": "20250928_173554",
+  "filepath": "saved_models\\best_model_catboost_fast_20250928_173554.pkl",
+  "model_tier": null,
+  "feature_names": null,
+  "performance": {
+    "test_accuracy": 0.94,
+    "test_f1": 0.4642857142857143,
+    "test_precision": 0.5652173913043478,
+    "test_recall": 0.3939393939393939,
+    "test_mcc": 0.44151862556896454,
+    "test_auc": 0.9280221919408215
+  },
+  "latency": {
+    "single_sample_ms": 2.2516789998917375,
+    "single_sample_std": 1.1215906403294995,
+    "batch_100_ms": 2.0527699976810254,
+    "throughput_samples_per_sec": 444.1130374480913
+  },
+  "additional_info": {
+    "selection_metric": "prauc",
+    "selection_score": 0.5164046264695101,
+    "original_model_name": "catboost_fast"
+  }
+}

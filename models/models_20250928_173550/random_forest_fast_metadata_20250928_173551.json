@@ -1,0 +1,23 @@
+{
+  "model_name": "random_forest_fast",
+  "model_type": "RandomForestClassifier",
+  "timestamp": "20250928_173551",
+  "filepath": "models\\models_20250928_173550\\random_forest_fast_20250928_173551.pkl",
+  "model_tier": "Tier 3: Balanced (5-15ms)",
+  "feature_names": null,
+  "performance": {
+    "test_accuracy": 0.931,
+    "test_f1": 0.5106382978723404,
+    "test_precision": 0.48,
+    "test_recall": 0.5454545454545454,
+    "test_mcc": 0.4748043624616671,
+    "test_auc": 0.9257591979754721
+  },
+  "latency": {
+    "single_sample_ms": 19.601428000460146,
+    "single_sample_std": 2.9325291453488505,
+    "batch_100_ms": 16.66259000339778,
+    "throughput_samples_per_sec": 51.01669123170643
+  },
+  "additional_info": {}
+}

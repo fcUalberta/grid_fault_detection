@@ -1,0 +1,23 @@
+{
+  "model_name": "xgboost_fast",
+  "model_type": "XGBClassifier",
+  "timestamp": "20250928_173550",
+  "filepath": "models\\models_20250928_173550\\xgboost_fast_20250928_173550.pkl",
+  "model_tier": "Tier 2: Fast (1-5ms)",
+  "feature_names": null,
+  "performance": {
+    "test_accuracy": 0.937,
+    "test_f1": 0.35051546391752575,
+    "test_precision": 0.5483870967741935,
+    "test_recall": 0.25757575757575757,
+    "test_mcc": 0.3475115431762074,
+    "test_auc": 0.9316072934916618
+  },
+  "latency": {
+    "single_sample_ms": 6.8086160003440455,
+    "single_sample_std": 0.9141583541662519,
+    "batch_100_ms": 8.129239999107085,
+    "throughput_samples_per_sec": 146.87272713712582
+  },
+  "additional_info": {}
+}

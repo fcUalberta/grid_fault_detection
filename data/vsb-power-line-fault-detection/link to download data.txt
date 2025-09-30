@@ -1,0 +1,1 @@
+Download the train.parquet (3.4GB) from https://www.kaggle.com/competitions/vsb-power-line-fault-detection/data

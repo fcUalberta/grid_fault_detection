@@ -1,0 +1,23 @@
+{
+  "model_name": "xgboost_accurate",
+  "model_type": "XGBClassifier",
+  "timestamp": "20250928_173554",
+  "filepath": "models\\models_20250928_173550\\xgboost_accurate_20250928_173554.pkl",
+  "model_tier": "Tier 4: High accuracy (15-50ms)",
+  "feature_names": null,
+  "performance": {
+    "test_accuracy": 0.934,
+    "test_f1": 0.3125,
+    "test_precision": 0.5,
+    "test_recall": 0.22727272727272727,
+    "test_mcc": 0.3074107736159253,
+    "test_auc": 0.9318181818181818
+  },
+  "latency": {
+    "single_sample_ms": 5.17247699885047,
+    "single_sample_std": 0.8974031306549293,
+    "batch_100_ms": 7.2150499996496364,
+    "throughput_samples_per_sec": 193.3309708718356
+  },
+  "additional_info": {}
+}

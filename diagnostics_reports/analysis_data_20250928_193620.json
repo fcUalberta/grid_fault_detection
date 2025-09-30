@@ -1,0 +1,65 @@
+{
+  "time_window": {
+    "start": "2025-09-27 19:36:18",
+    "end": "2025-09-28 19:36:18",
+    "duration_hours": 24,
+    "total_predictions": 1000
+  },
+  "fault_trends": {
+    "total_faults_detected": 46,
+    "fault_rate_percent": 4.6,
+    "average_confidence": 0.7080016119236675,
+    "peak_fault_hours": [
+      14,
+      16,
+      4
+    ]
+  },
+  "signal_patterns": {
+    "most_problematic_signals": {
+      "7": {
+        "total_predictions": 1,
+        "fault_count": 1,
+        "avg_confidence": 0.844,
+        "fault_rate": 100.0
+      },
+      "59": {
+        "total_predictions": 1,
+        "fault_count": 1,
+        "avg_confidence": 0.647,
+        "fault_rate": 100.0
+      },
+      "153": {
+        "total_predictions": 1,
+        "fault_count": 1,
+        "avg_confidence": 0.78,
+        "fault_rate": 100.0
+      },
+      "154": {
+        "total_predictions": 1,
+        "fault_count": 1,
+        "avg_confidence": 0.57,
+        "fault_rate": 100.0
+      },
+      "204": {
+        "total_predictions": 1,
+        "fault_count": 1,
+        "avg_confidence": 0.827,
+        "fault_rate": 100.0
+      }
+    },
+    "total_unique_signals": 1000,
+    "signals_with_faults": 46
+  },
+  "model_performance": {
+    "accuracy": 0.94,
+    "mcc": 0.44151862556896454,
+    "fault_detection_rate": 0.3939393939393939,
+    "false_positive_rate": 0.021413276231263382
+  },
+  "alerts": {
+    "high_fault_rate": false,
+    "low_confidence_detections": "False",
+    "model_performance_degradation": true
+  }
+}

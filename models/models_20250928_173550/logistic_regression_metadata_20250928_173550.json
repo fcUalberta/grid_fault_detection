@@ -1,0 +1,23 @@
+{
+  "model_name": "logistic_regression",
+  "model_type": "LogisticRegression",
+  "timestamp": "20250928_173550",
+  "filepath": "models\\models_20250928_173550\\logistic_regression_20250928_173550.pkl",
+  "model_tier": "Tier 1: Ultra-fast (<1ms)",
+  "feature_names": null,
+  "performance": {
+    "test_accuracy": 0.856,
+    "test_f1": 0.42857142857142855,
+    "test_precision": 0.2903225806451613,
+    "test_recall": 0.8181818181818182,
+    "test_mcc": 0.4318887149571147,
+    "test_auc": 0.9062033612354812
+  },
+  "latency": {
+    "single_sample_ms": 1.2773340006242506,
+    "single_sample_std": 0.3799211869715401,
+    "batch_100_ms": 1.0730400012107566,
+    "throughput_samples_per_sec": 782.8805931035158
+  },
+  "additional_info": {}
+}

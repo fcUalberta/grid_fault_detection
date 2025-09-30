@@ -3,7 +3,7 @@
 Detect partial discharge patterns in power line signals using ML classifiers. Reduce maintenance costs and prevent outages through automated monitoring and AI-powered diagnostics reporting.
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Kaggle](https://img.shields.io/badge/dataset-VSB%20Power%20Line-orange.svg)](https://www.kaggle.com/competitions/vsb-power-line-fault-detection)
 
 ## Table of Contents
@@ -232,7 +232,7 @@ issue requiring root cause analysis.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 

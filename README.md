@@ -70,7 +70,7 @@ An automated system that:
 - **Model Transparency**: Understanding which signal characteristics indicate faults
 - **Operational Insights**: Actionable explanations for grid operators
 
-![Single Instance Prediction Explanation](https://github.com/fcUalberta/grid_fault_detection)
+![Single Instance Prediction Explanation](https://github.com/fcUalberta/grid_fault_detection/blob/main/images/SHAP.png)
 
 ### GenAI-Powered Diagnostics
 - **Automated PDF Reports**: Professional documentation for stakeholders
@@ -180,7 +180,7 @@ Link to the train and test parquet files are provided in the text file due to th
 - **Signals**: 8,712 training signals, 20,337 test signals
 - **Measurements per Signal**: 800,000 floating-point values
 - **Target**: Binary (0 = normal operation, 1 = partial discharge detected)
-- **Class Imbalance**: ~95% normal, ~5% faults (typical for power systems)
+- **Class Imbalance**: ~94% normal, ~6% faults (typical for power systems)
 - **Phases**: 3-phase electrical system representation
 
 ## Project Structure

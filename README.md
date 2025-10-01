@@ -40,6 +40,8 @@ An automated system that:
 - Enables proactive maintenance scheduling
 - Reduces operational costs through early detection
 
+  ![ML STAGES ](https://github.com/fcUalberta/grid_fault_detection/blob/main/images/ML%20stages.png)
+
 ## Key Features
 
 ### Machine Learning Pipeline
@@ -48,16 +50,27 @@ An automated system that:
 - **Imbalanced Data Handling**: Advanced techniques for rare fault detection (6% positive class)
 - **Comprehensive Evaluation**: MCC, PR-AUC, Latency optimized for power systems
 
+### Key Visuals from Exploratory Data Analysis
+
+ ![Normal vs Fault Signal ](https://github.com/fcUalberta/grid_fault_detection/blob/main/images/Normal%20vs%20Fault%20Visual.png)
+ ![Time Series Pattern Analysis using Sliding Windows](https://github.com/fcUalberta/grid_fault_detection/blob/main/images/timeseries%20pattern.png)
+  
 ### Signal Processing & Feature Engineering
 - **50+ Domain-Specific Features**: Time domain, frequency domain, and wavelet transforms
 - **Power System Metrics**: RTHD, Transient detection, amplitude variation etc.
 - **Advanced Preprocessing**: Spectral Centroid, wavelet decomposition, autocorrelation, dominant frequency analysis
 - **Dimensionality Reduction**: Chunking strategies for 800,000-point signals
 
+###  Model Performance Comparison
+![Model Performance Comparison Across Metrics](https://github.com/fcUalberta/grid_fault_detection/blob/main/images/model_eval.png)
+![Latency Vs Accuracy Trade-Off for Grid](https://github.com/fcUalberta/grid_fault_detection/blob/main/images/models%20for%20grid.png)
+
 ### Explainable AI
 - **SHAP Integration**: Feature importance and prediction interpretation
 - **Model Transparency**: Understanding which signal characteristics indicate faults
 - **Operational Insights**: Actionable explanations for grid operators
+
+![Single Instance Prediction Explanation](https://github.com/fcUalberta/grid_fault_detection)
 
 ### GenAI-Powered Diagnostics
 - **Automated PDF Reports**: Professional documentation for stakeholders
